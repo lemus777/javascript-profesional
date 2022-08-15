@@ -3,18 +3,18 @@
   "version": "1.0.0",
   "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
   "license": "MIT",
-  "author": "Jorge Lemus <lemus777@gmail.com>",
+  "author": "Richard B. Kaufman López <richardbkaufman@gmail.com>",
   "keywords": [
     "platzi"
   ],
   "scripts": {
-    "start": "parcel index.html ejercicios/**/*.html"
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.5",
-    "typescript": "^4.7.4"
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.5.3"
   },
   "browserslist": [
-    "last 1 Firefox version"
+    "last 1 Chrome version"
   ]
 }
